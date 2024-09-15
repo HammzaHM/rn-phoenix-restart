@@ -44,8 +44,11 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "react",
+    "android",
+    "restart",
+    "reload",
+    "phoenix"
   ],
   "repository": {
     "type": "git",
