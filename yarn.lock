@@ -11351,10 +11351,11 @@ __metadata:
     react: 18.3.1
     react-native: 0.75.3
     react-native-builder-bob: ^0.30.2
+    rn-phoenix-restart: 0.1.0
   languageName: unknown
   linkType: soft
 
-"rn-phoenix-restart@workspace:.":
+"rn-phoenix-restart@0.1.0, rn-phoenix-restart@workspace:.":
   version: 0.0.0-use.local
   resolution: "rn-phoenix-restart@workspace:."
   dependencies:

@@ -6,8 +6,8 @@ import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.bridge.Promise
 import com.jakewharton.processphoenix.ProcessPhoenix;
 
-class RNPhoenixRestartModule(reactContext: ReactApplicationContext) :
-  ReactContextBaseJavaModule(reactContext) {
+class RNPhoenixRestartModule(context: ReactApplicationContext) : ReactContextBaseJavaModule(context)  {
+  public var appContext: ReactApplicationContext = context;
 
   override fun getName(): String {
     return NAME
@@ -15,7 +15,7 @@ class RNPhoenixRestartModule(reactContext: ReactApplicationContext) :
 
   @ReactMethod
   fun restartApp(promise: Promise) {
-    ProcessPhoenix.triggerRebirtht(reactContext)
+    ProcessPhoenix.triggerRebirth(appContext)
 
     promise.resolve(true)
   }
