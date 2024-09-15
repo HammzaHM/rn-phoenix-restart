@@ -1,4 +1,4 @@
-package com.rnphoenixrestart
+package tn.rnphoenixrestart
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule

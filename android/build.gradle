@@ -49,7 +49,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.rnphoenixrestart"
+    namespace "tn.rnphoenixrestart"
 
     sourceSets {
       main {
@@ -95,5 +95,6 @@ dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation 'com.jakewharton:process-phoenix:3.0.0'
 }
 

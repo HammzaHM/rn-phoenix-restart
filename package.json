@@ -1,7 +1,7 @@
 {
   "name": "rn-phoenix-restart",
   "version": "0.1.0",
-  "description": "Restart your React Native App with ease using Process Phoenix 🚀",
+  "description": "Restart your React Native Android App with ease using Process Phoenix 🚀",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -21,10 +21,8 @@
     "src",
     "lib",
     "android",
-    "ios",
     "cpp",
     "*.podspec",
-    "!ios/build",
     "!android/build",
     "!android/gradle",
     "!android/gradlew",
@@ -40,7 +38,7 @@
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
+    "clean": "del-cli android/build example/android/build example/android/app/build lib",
     "prepare": "bob build",
     "release": "release-it"
   },
@@ -51,14 +49,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.https://github.com/HammzaHM.git"
+    "url": "git@github.com:HammzaHM/rn-phoenix-restart.git"
   },
-  "author": "Hamza Hmem <hmem.hamza@yahoo.com> (https://x.com/hmem_hamza)",
+  "author": "Hamza Hmem <hmemm.hamza1@yahoo.com> (https://github.com/HammzaHM)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.https://github.com/HammzaHM/issues"
+    "url": "https://github.com/HammzaHM/rn-phoenix-restart/issues"
   },
-  "homepage": "https://github.https://github.com/HammzaHM#readme",
+  "homepage": "https://github.com/HammzaHM/rn-phoenix-restart#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

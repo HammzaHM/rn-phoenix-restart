@@ -17,6 +17,6 @@ const RNPhoenixRestart = NativeModules.RNPhoenixRestart
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return RNPhoenixRestart.multiply(a, b);
+export function restartApp(): Promise<void> {
+  return RNPhoenixRestart.restartApp();
 }

@@ -12,11 +12,11 @@ npm install rn-phoenix-restart
 
 
 ```js
-import { multiply } from 'rn-phoenix-restart';
+import { restartApp } from 'rn-phoenix-restart';
 
-// ...
+// Then trigger the Process Phoenix triggerRebirth by calling restartApp
 
-const result = await multiply(3, 7);
+const result = await restartApp();
 ```
 
 
