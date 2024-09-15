@@ -6,10 +6,11 @@ Restart your React Native App with ease using Process Phoenix 🚀
 
 ```sh
 npm install rn-phoenix-restart
+// OR
+yarn add rn-phoenix-restart
 ```
 
 ## Usage
-
 
 ```js
 import { restartApp } from 'rn-phoenix-restart';
