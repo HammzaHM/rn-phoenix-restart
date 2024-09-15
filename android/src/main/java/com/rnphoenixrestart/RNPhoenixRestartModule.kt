@@ -14,7 +14,7 @@ class RNPhoenixRestartModule(reactContext: ReactApplicationContext) :
   }
 
   @ReactMethod
-  fun restartApp(a: Double, b: Double, promise: Promise) {
+  fun restartApp(promise: Promise) {
     ProcessPhoenix.triggerRebirtht(reactContext)
 
     promise.resolve(true)
