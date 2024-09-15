@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   StyleSheet,
   View,
@@ -11,23 +10,23 @@ import { restartApp } from 'rn-phoenix-restart';
 export default function App() {
   const handleAppRestart = async () => {
     ToastAndroid.showWithGravity(
-      'The app will restart...',
+      'The app is being restarting...',
       ToastAndroid.SHORT,
       ToastAndroid.TOP
     );
 
     await restartApp();
 
-    ToastAndroid.show('The app is being restarting...', ToastAndroid.LONG);
+    ToastAndroid.show('The app has been restarting ✅', ToastAndroid.LONG);
   };
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>
-        This is an Example on how to use the rn phoenix restart module
+        This is an Example on how to use the rn-phoenix-restart module
       </Text>
       <TouchableOpacity style={styles.restartButton} onPress={handleAppRestart}>
-        <Text>Restart</Text>
+        <Text style={styles.btnText}>Restart</Text>
       </TouchableOpacity>
     </View>
   );
@@ -44,12 +43,19 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontFamily: 'sans-serif',
     fontWeight: 'bold',
+    textAlign: 'center',
+    marginVertical: 20,
   },
   restartButton: {
-    paddingVertical: 10,
-    paddingHorizontal: 20,
+    paddingVertical: 15,
+    paddingHorizontal: 30,
     marginVertical: 20,
+    borderRadius: 10,
     alignSelf: 'center',
     backgroundColor: '#79e8ba',
+  },
+  btnText: {
+    color: '#000000',
+    fontWeight: 'bold',
   },
 });
