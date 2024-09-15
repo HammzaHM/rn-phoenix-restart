@@ -1,6 +1,6 @@
 {
   "name": "rn-phoenix-restart",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Restart your React Native Android App with ease using Process Phoenix 🚀",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
