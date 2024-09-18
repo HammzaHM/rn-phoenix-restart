@@ -1,5 +1,7 @@
 # rn-phoenix-restart
 
+[![CI](https://github.com/HammzaHM/rn-phoenix-restart/actions/workflows/ci.yml/badge.svg)](https://github.com/HammzaHM/rn-phoenix-restart/actions/workflows/ci.yml)
+
 Restart your React Native App with ease using Process Phoenix 🚀
 
 ## Installation
